@@ -1,6 +1,6 @@
 # HR Analytics with Python 📊
 
-A portfolio-ready HR analytics project using Python, Pandas, NumPy, and Matplotlib on a synthetic dataset containing 2,500 unique employees and intentionally introduced data-quality issues.
+A portfolio-ready HR analytics project using Python, Pandas, NumPy, Matplotlib, and Seaborn on a synthetic dataset containing 2,500 unique employees and intentionally introduced data-quality issues.
 
 ## 🎯 Project Overview
 
@@ -9,6 +9,10 @@ This project demonstrates an end-to-end HR analytics workflow:
 **Inspect → Clean → Validate → Analyze → Visualize → Interpret**
 
 The analysis focuses on employee demographics, salary, experience, tenure, performance, satisfaction, workload, overtime, and attrition.
+
+## 📊 Project Preview
+
+![HR Analytics Overview](screenshots/attrition_overview.png)
 
 ## 📁 Dataset
 
@@ -38,6 +42,7 @@ The project handles:
 ## 📌 HR Analysis
 
 ### Overall KPIs
+
 - Employee count
 - Average and median salary
 - Total salary expense
@@ -49,6 +54,7 @@ The project handles:
 - Attrition rate
 
 ### Department Analysis
+
 - Headcount
 - Average salary
 - Salary expense
@@ -57,6 +63,7 @@ The project handles:
 - Attrition
 
 ### Additional Analysis
+
 - Job-role analysis
 - Gender analysis
 - Experience groups
@@ -66,13 +73,27 @@ The project handles:
 
 ## 📈 Visualizations
 
-The project generates five charts:
+The project generates five visualizations to explore salary, attrition, experience, performance, and overtime patterns.
 
-1. Average salary by department
-2. Attrition rate by department
-3. Salary vs experience
-4. Attrition rate by performance rating
-5. Attrition rate for overtime vs non-overtime employees
+### 1. Average Salary by Department
+
+![Average Salary by Department](screenshots/salary_by_department.png)
+
+### 2. Attrition Rate by Department
+
+![Attrition Rate by Department](screenshots/attrition_by_department.png)
+
+### 3. Salary vs Experience
+
+![Salary vs Experience](screenshots/salary_vs_experience.png)
+
+### 4. Attrition Rate by Performance Rating
+
+![Attrition Rate by Performance Rating](screenshots/performance_analysis.png)
+
+### 5. Attrition Rate: Overtime vs Non-Overtime
+
+![Attrition Rate for Overtime vs Non-Overtime Employees](screenshots/attrition_overview.png)
 
 ## 💡 Business Insights
 
@@ -105,7 +126,16 @@ hr-analytics-python/
 ├── hr_analysis.py
 ├── hr_visualizations.py
 ├── hr_employee_data_2500.csv
+├── hr_employee_data_cleaned.csv
 ├── requirements.txt
+│
+├── department_summary.csv
+├── experience_summary.csv
+├── gender_summary.csv
+├── job_role_summary.csv
+├── overtime_summary.csv
+├── performance_summary.csv
+├── tenure_summary.csv
 │
 └── screenshots/
     ├── salary_by_department.png
@@ -113,9 +143,6 @@ hr-analytics-python/
     ├── salary_vs_experience.png
     ├── performance_analysis.png
     └── attrition_overview.png
-```
-
-Additional CSV summary files are generated automatically when `hr_analysis.py` is run.
 
 ## ▶️ How to Run
 
@@ -124,31 +151,14 @@ Additional CSV summary files are generated automatically when `hr_analysis.py` i
 ```bash
 git clone https://github.com/shivakant-data/hr-analytics-python.git
 cd hr-analytics-python
-```
-
 ### 2. Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-### 3. Run the HR analysis
+### 3.  python hr_analysis.py
 
-```bash
 python hr_analysis.py
-```
 
-### 4. Generate visualizations
+### 4.  Generate visualizations
 
-```bash
 python hr_visualizations.py
-```
-
-The analysis script prints the main HR KPIs and grouped analysis tables and also exports cleaned data and summary CSV files.
-
-## 👤 Portfolio
-
-**Shivakant**  
-Data Analyst | Python | Pandas | Advanced SQL | Power BI | Excel | Data Visualization
-
-This project is part of a practical data analytics portfolio focused on real-world business questions, data cleaning, analysis, visualization, and communication.
