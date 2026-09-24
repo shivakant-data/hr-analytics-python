@@ -22,7 +22,7 @@ The analysis focuses on employee demographics, salary, experience, tenure, perfo
 - 5 duplicate employee records intentionally included for cleaning practice
 - Missing values intentionally included in selected fields
 
-### Main fields
+### Main Fields
 
 `Employee_ID`, `Age`, `Gender`, `Department`, `Job_Role`, `City`, `Education`, `Employment_Type`, `Experience_Years`, `Salary`, `Joining_Date`, `Tenure_Years`, `Performance_Rating`, `Job_Satisfaction`, `Overtime`, `Monthly_Work_Hours`, `Leave_Days`, `Absent_Days`, `Manager_ID`, `Attrition`
 
@@ -107,7 +107,7 @@ The analysis is designed to answer practical HR questions such as:
 - Which tenure groups show higher employee turnover?
 - Which job roles combine high headcount with high attrition?
 
-> Important: Correlation or group differences in this project should be interpreted as associations, not proof of causation.
+> **Important:** Correlation or group differences in this project should be interpreted as associations, not proof of causation.
 
 ## 🛠️ Technologies
 
@@ -171,3 +171,25 @@ python hr_analysis.py
 python hr_visualizations.py
 ```
 
+### 📊 Generated Outputs
+
+The analysis generates:
+
+- `hr_employee_data_cleaned.csv`
+- `department_summary.csv`
+- `job_role_summary.csv`
+- `gender_summary.csv`
+- `experience_summary.csv`
+- `performance_summary.csv`
+- `overtime_summary.csv`
+- `tenure_summary.csv`
+
+The visualization script generates:
+
+- `salary_by_department.png`
+- `attrition_by_department.png`
+- `salary_vs_experience.png`
+- `performance_analysis.png`
+- `attrition_overview.png`
+
+All visualization files are saved in the `screenshots/` folder.
