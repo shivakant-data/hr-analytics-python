@@ -151,14 +151,23 @@ hr-analytics-python/
 ```bash
 git clone https://github.com/shivakant-data/hr-analytics-python.git
 cd hr-analytics-python
+```
+
 ### 2. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-### 3.  python hr_analysis.py
+### 3. Run the HR analysis
 
+```bash
 python hr_analysis.py
+```
 
-### 4.  Generate visualizations
+### 4. Generate visualizations
 
+```bash
 python hr_visualizations.py
+```
+
