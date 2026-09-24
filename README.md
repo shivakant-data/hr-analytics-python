@@ -143,6 +143,7 @@ hr-analytics-python/
     ├── salary_vs_experience.png
     ├── performance_analysis.png
     └── attrition_overview.png
+```
 
 ## ▶️ How to Run
 
@@ -193,3 +194,11 @@ The visualization script generates:
 - `attrition_overview.png`
 
 All visualization files are saved in the `screenshots/` folder.
+
+## 👤 Portfolio
+
+**Shivakant**
+
+Data Analyst | Python | Pandas | Advanced SQL | Power BI | Excel | Data Visualization
+
+This project is part of a practical data analytics portfolio focused on real-world business questions, data cleaning, analysis, visualization, and communication.
