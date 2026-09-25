@@ -115,7 +115,6 @@ The analysis is designed to answer practical HR questions such as:
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
 
 ## 📂 Project Structure
 
